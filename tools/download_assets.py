@@ -27,11 +27,16 @@ def sha256(path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('--directory', type=Path, default=Path('experiment-assets'))
+    parser.add_argument('--manifest', type=Path, help='Use a pinned local manifest instead of fetching the release manifest')
     parser.add_argument('--check-only', action='store_true', help='Verify downloaded parts without downloading')
     args = parser.parse_args()
     args.directory.mkdir(parents=True, exist_ok=True)
     manifest_path = args.directory / 'asset_manifest.json'
-    if not args.check_only:
+    if args.manifest:
+        manifest_bytes = args.manifest.read_bytes()
+        manifest = json.loads(manifest_bytes)
+        manifest_path.write_bytes(manifest_bytes)
+    elif not args.check_only:
         with urllib.request.urlopen(MANIFEST_URL, timeout=120) as response:
             manifest_bytes = response.read()
         manifest = json.loads(manifest_bytes)

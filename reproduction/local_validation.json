@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "frozen_sources": true,
+    "parent_hashes": true,
+    "model_assets": true,
+    "selected_checkpoint": true
+  },
+  "cpu_only": true,
+  "policy": {
+    "python": "3.11.15",
+    "torch": "2.7.1+cu126",
+    "cuda_runtime": "12.6",
+    "experiment_import": true,
+    "gpu_checked": false
+  },
+  "simulator": {
+    "python": "3.8.20",
+    "libero_goal_import": true,
+    "task_zero_initial_states": 50,
+    "render_libraries_loaded": true
+  },
+  "passed": true,
+  "gpu_execution_validated": false,
+  "next_step": "Run smoke to validate actual GPU inference, rendering and learner updates.",
+  "validation_scope": "Original ilab4 installation, CPU-only; not a clean-container or GPU end-to-end run"
+}

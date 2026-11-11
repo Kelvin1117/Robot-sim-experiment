@@ -1,0 +1,23 @@
+name: Reproduction launcher and container
+on:
+  push:
+    branches: [main]
+    paths: ['reproduce.py', 'reproduction/**', 'tests/**', 'tools/download_assets.py', '.github/workflows/reproduction.yml', '.dockerignore']
+  pull_request:
+    paths: ['reproduce.py', 'reproduction/**', 'tests/**', 'tools/download_assets.py', '.github/workflows/reproduction.yml', '.dockerignore']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - run: sudo apt-get update && sudo apt-get install -y zstd
+      - name: Test restoration, provenance and launch isolation without GPU
+        run: python3 -m unittest discover -s tests -v
+      - name: Build clean Ubuntu/Python runtime and validate archived venv layout
+        run: docker build --platform linux/amd64 -t robot-reproduction-ci -f reproduction/Dockerfile .
