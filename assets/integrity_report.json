@@ -1,0 +1,331 @@
+{
+  "hash_checks": [
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dataset.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "4d7f33713affb2ee3db8f18d468a8a38512182e39be2cd63894e1b0b594c88e9",
+      "archived_sha256": "4d7f33713affb2ee3db8f18d468a8a38512182e39be2cd63894e1b0b594c88e9",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/__init__.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "ad301e3946e19eb77181dde240cfc14527a4b6c6acc0ae9687a456ece5b24554",
+      "archived_sha256": "ad301e3946e19eb77181dde240cfc14527a4b6c6acc0ae9687a456ece5b24554",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/checkpoint.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "cac3d796f44e0510550ef81eb72da8d41ab931498c919b146071f3e5c1a560fb",
+      "archived_sha256": "cac3d796f44e0510550ef81eb72da8d41ab931498c919b146071f3e5c1a560fb",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/critic.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "88f879002d7471b9367494026c82235e48b6d8adc63605139de60706d06e81d2",
+      "archived_sha256": "88f879002d7471b9367494026c82235e48b6d8adc63605139de60706d06e81d2",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/data.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "9665e118e04059d93339d9f3ceaf4b91126419acc48838c2ccc936b112bcc169",
+      "archived_sha256": "9665e118e04059d93339d9f3ceaf4b91126419acc48838c2ccc936b112bcc169",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/demonstrations.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "a16febe1d17cb2903b9efc05a62b0d6d8037546f644954c1fa9c262d7e44167a",
+      "archived_sha256": "a16febe1d17cb2903b9efc05a62b0d6d8037546f644954c1fa9c262d7e44167a",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/libero.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "4ec76f86ef3545fa859e15f409c1e827c1d44357eb4eb6c17d9a1f78003d5605",
+      "archived_sha256": "4ec76f86ef3545fa859e15f409c1e827c1d44357eb4eb6c17d9a1f78003d5605",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/pi05.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "f3407ec6ac162ff62568acc24d6d442e4335dcde4999a5dd3ff918e9f0a03f69",
+      "archived_sha256": "f3407ec6ac162ff62568acc24d6d442e4335dcde4999a5dd3ff918e9f0a03f69",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/pipeline.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "70809c47b3ec066d9dad8caf802fe8ccb4987ebafda4fa2a06b6caeb15b8d27e",
+      "archived_sha256": "70809c47b3ec066d9dad8caf802fe8ccb4987ebafda4fa2a06b6caeb15b8d27e",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/policy.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "5f555575e25d42f6be14709a2ad1d38a965b3be47bfd2f42ad6d88fa4edbe712",
+      "archived_sha256": "5f555575e25d42f6be14709a2ad1d38a965b3be47bfd2f42ad6d88fa4edbe712",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/replay.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "e77f7b6873cc97f076b45dfd1ecda80e0ef174eecfa9ff7e2f2ce9d313d07549",
+      "archived_sha256": "e77f7b6873cc97f076b45dfd1ecda80e0ef174eecfa9ff7e2f2ce9d313d07549",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/representation.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "5a1093a8b71e522f65e875c2085c62316fc27a111f9a0dcdec76ed8090d70089",
+      "archived_sha256": "5a1093a8b71e522f65e875c2085c62316fc27a111f9a0dcdec76ed8090d70089",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/dygro/trainer.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "f46c4171012abb59ecd52a7c7741c94706b85e697d6e5c0c74e2de0667387fed",
+      "archived_sha256": "f46c4171012abb59ecd52a7c7741c94706b85e697d6e5c0c74e2de0667387fed",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/native.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "27bd25944226334d3ecefb1eeef61eea2f603697d4a90ba2d2ed96e4af4cee2d",
+      "archived_sha256": "27bd25944226334d3ecefb1eeef61eea2f603697d4a90ba2d2ed96e4af4cee2d",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/recovery_run.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "2d1de0a7d07d8f3bca77d1f198b0865a81f9c9b54b29f0f1f27599c80590dd23",
+      "archived_sha256": "2d1de0a7d07d8f3bca77d1f198b0865a81f9c9b54b29f0f1f27599c80590dd23",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/regularization.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "eb095a066441d19d26c633f0e6110438113c6cb8b4d23a6fbc64ca627e62e208",
+      "archived_sha256": "eb095a066441d19d26c633f0e6110438113c6cb8b4d23a6fbc64ca627e62e208",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/retention.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "f142b0d7c736e55589c2d3e593f3fae130c5ef688be19870f9cb353a75f3fde7",
+      "archived_sha256": "f142b0d7c736e55589c2d3e593f3fae130c5ef688be19870f9cb353a75f3fde7",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/run.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "f594010bbba1e663b797189b4c3bdb514eef1f8b45e63e1951deace9e41b071f",
+      "archived_sha256": "f594010bbba1e663b797189b4c3bdb514eef1f8b45e63e1951deace9e41b071f",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/archive_smoke.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "98531caeca95b6213a78e6956e43fb53395a8ed0ab23ee0f3ef9fb4ede34ce1b",
+      "archived_sha256": "98531caeca95b6213a78e6956e43fb53395a8ed0ab23ee0f3ef9fb4ede34ce1b",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/audit_checkpoint.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "d5da771a530b4b367587774ba5fabd378c527eb466511247ba9b9498795275fa",
+      "archived_sha256": "d5da771a530b4b367587774ba5fabd378c527eb466511247ba9b9498795275fa",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/check_live.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "7ccc0313838aa69b34b0c7d47d99c9f24fae90cf6122d2ded91a725f2052e3a9",
+      "archived_sha256": "7ccc0313838aa69b34b0c7d47d99c9f24fae90cf6122d2ded91a725f2052e3a9",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/configure_budget.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "f769317ccbf78281fbbf1ae7583e42756ca26b1198fc1a28676c2dfd538a99e1",
+      "archived_sha256": "f769317ccbf78281fbbf1ae7583e42756ca26b1198fc1a28676c2dfd538a99e1",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/fetch_assets.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "c031ea64926ef79ca1cce562fde38035a6ee7808ebec2369fc44ea6cefc78e61",
+      "archived_sha256": "c031ea64926ef79ca1cce562fde38035a6ee7808ebec2369fc44ea6cefc78e61",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/snapshot.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "a70574e20215e604085947d6153dc1f18ace3c6dc9ac95503ad705217ecc79da",
+      "archived_sha256": "a70574e20215e604085947d6153dc1f18ace3c6dc9ac95503ad705217ecc79da",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/submit_pipeline.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "7fc0466b648dfbf9acda8d7dacfb3b1f27a7bfc1a8a9175bba773d9033c042f9",
+      "archived_sha256": "7fc0466b648dfbf9acda8d7dacfb3b1f27a7bfc1a8a9175bba773d9033c042f9",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/scripts/verify_orbax.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "1835737e20effa839cb726efd2e5127ad585706a943c5153ac2c7e20789caf37",
+      "archived_sha256": "1835737e20effa839cb726efd2e5127ad585706a943c5153ac2c7e20789caf37",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/simulator.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "8347a07c9dff91a8d57b96f6ee1c3b54c475fe9c22561777717cdef042bd344c",
+      "archived_sha256": "8347a07c9dff91a8d57b96f6ee1c3b54c475fe9c22561777717cdef042bd344c",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/simulator_bridge.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "8352958faa94dbb2a849ed722731002872736aa15fb2a4628ad1c7096fdbe69d",
+      "archived_sha256": "8352958faa94dbb2a849ed722731002872736aa15fb2a4628ad1c7096fdbe69d",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/storage.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "35b80fc6037cef639aa02385d80acf5eb7926f842203f764582ae32c215b524c",
+      "archived_sha256": "35b80fc6037cef639aa02385d80acf5eb7926f842203f764582ae32c215b524c",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/code/test_retention.py",
+      "check": "frozen run source manifest",
+      "expected_sha256": "543015dd39e478eaada4e1c2a3bee02ea0fd0c32bd9852af60af6377547872ef",
+      "archived_sha256": "543015dd39e478eaada4e1c2a3bee02ea0fd0c32bd9852af60af6377547872ef",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/config.json",
+      "check": "frozen run source manifest",
+      "expected_sha256": "d698291e2ef1910c8aecdac9bc89d25d324094e5faf53e33f483bb1f4d42e072",
+      "archived_sha256": "d698291e2ef1910c8aecdac9bc89d25d324094e5faf53e33f483bb1f4d42e072",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/environment.sh",
+      "check": "frozen run source manifest",
+      "expected_sha256": "07da1ac87a66e3502329cc0ab2330a79e87d7cb22d2ddcd0a7989da71478adbc",
+      "archived_sha256": "07da1ac87a66e3502329cc0ab2330a79e87d7cb22d2ddcd0a7989da71478adbc",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/job.sbatch",
+      "check": "frozen run source manifest",
+      "expected_sha256": "d10ca95d363130c966dd56ec3b29f69edbafcfb6fec2268673ab315c070a6dd7",
+      "archived_sha256": "d10ca95d363130c966dd56ec3b29f69edbafcfb6fec2268673ab315c070a6dd7",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/best.pt",
+      "check": "selected recovery checkpoint",
+      "expected_sha256": "77f68f4cafeef095ac927839d9069db675931d90b9bbf53311c10e4b586a1ecf",
+      "archived_sha256": "77f68f4cafeef095ac927839d9069db675931d90b9bbf53311c10e4b586a1ecf",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z/config.json",
+      "check": "frozen parent source hashes",
+      "expected_sha256": "8427023f3a608e8ca69b4c2ad3064db51c6efbe9f4ad942d841241869083346e",
+      "archived_sha256": "8427023f3a608e8ca69b4c2ad3064db51c6efbe9f4ad942d841241869083346e",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z/stage1/validated.json",
+      "check": "frozen parent source hashes",
+      "expected_sha256": "eb5005abacb6e0d07fb5192af9410a60d9a88d8a596d076be1ed80267ee53e88",
+      "archived_sha256": "eb5005abacb6e0d07fb5192af9410a60d9a88d8a596d076be1ed80267ee53e88",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z/stage1/validated.pt",
+      "check": "frozen parent source hashes",
+      "expected_sha256": "326ecc6fb2ec01a2c98795981f600bc24f5cdb85d17b45ca4cd188d81e842cad",
+      "archived_sha256": "326ecc6fb2ec01a2c98795981f600bc24f5cdb85d17b45ca4cd188d81e842cad",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z/stage2/best.pt",
+      "check": "frozen parent source hashes",
+      "expected_sha256": "9874d443cbdcf72fbe3f8cc8574131bd9b9f1bd2708467b6d1d8cc7b750392fa",
+      "archived_sha256": "9874d443cbdcf72fbe3f8cc8574131bd9b9f1bd2708467b6d1d8cc7b750392fa",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z/stage2/latest.pt",
+      "check": "frozen parent source hashes",
+      "expected_sha256": "20aa25cd4b3507d85e4f72924436b4cd8ce2b2f2afeea843431f3b8a17839417",
+      "archived_sha256": "20aa25cd4b3507d85e4f72924436b4cd8ce2b2f2afeea843431f3b8a17839417",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/models/pi05_libero_one_shot_pytorch/model.safetensors",
+      "check": "parent model configuration",
+      "expected_sha256": "c24aa16f16bc270b551d08673cd3882a2f0933749f35d52b9952eca46752f416",
+      "archived_sha256": "c24aa16f16bc270b551d08673cd3882a2f0933749f35d52b9952eca46752f416",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/models/pi05_libero_one_shot_pytorch/assets/libero_one_shot/norm_stats.json",
+      "check": "parent model configuration",
+      "expected_sha256": "9c36abd8a73f105c6afe76db2dcfd9de4b16928242df20bebe9688854172b6b8",
+      "archived_sha256": "9c36abd8a73f105c6afe76db2dcfd9de4b16928242df20bebe9688854172b6b8",
+      "matches": true
+    },
+    {
+      "path": "/common/users/cs2202/vlarlkit/cache/openpi/big_vision/paligemma_tokenizer.model",
+      "check": "parent model configuration",
+      "expected_sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+      "archived_sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+      "matches": true
+    },
+    {
+      "path": "/common/home/cs2202/VLARLKit/model_backends/openpi/.venv/lib/python3.11/site-packages/openpi/models_pytorch/pi0_pytorch.py",
+      "check": "external dependency hash",
+      "expected_sha256": "0c7b9f1de02ed886da49035e3fa1b38efea46eb6209489cb4f594f777f97b70c",
+      "archived_sha256": "0c7b9f1de02ed886da49035e3fa1b38efea46eb6209489cb4f594f777f97b70c",
+      "matches": true
+    },
+    {
+      "path": "/common/home/cs2202/VLARLKit/model_backends/openpi/.venv/lib/python3.11/site-packages/openpi/models_pytorch/gemma_pytorch.py",
+      "check": "external dependency hash",
+      "expected_sha256": "08fd8d750519f0fb44fc5173311e50a30f4c8f32c02e51244b4f8e47b32cd52f",
+      "archived_sha256": "08fd8d750519f0fb44fc5173311e50a30f4c8f32c02e51244b4f8e47b32cd52f",
+      "matches": true
+    },
+    {
+      "path": "/common/home/cs2202/VLARLKit/third_party/LIBERO/scripts/create_dataset.py",
+      "check": "external dependency hash",
+      "expected_sha256": "6ff09687a6ca8cb5df16b828cce2326467099da2b4dd6e5af557644d3e60f37f",
+      "archived_sha256": "6ff09687a6ca8cb5df16b828cce2326467099da2b4dd6e5af557644d3e60f37f",
+      "matches": true
+    },
+    {
+      "path": "/common/home/cs2202/VLARLKit/experiments/github_official_ppo_benchmark/egl_devices.py",
+      "check": "external dependency hash",
+      "expected_sha256": "3e28eae17c7385f258743de9d0d2f8d92b6ca69d889c9aaf72da4f6a3653d68c",
+      "archived_sha256": "3e28eae17c7385f258743de9d0d2f8d92b6ca69d889c9aaf72da4f6a3653d68c",
+      "matches": true
+    }
+  ],
+  "all_hash_checks_match": true,
+  "readme_entries": [],
+  "libero_goal_hdf5_files": 10,
+  "archive_entries": 111593,
+  "passed": true
+}

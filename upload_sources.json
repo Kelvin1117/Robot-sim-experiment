@@ -1,47 +1,46 @@
-[
-  {
-    "name": "retention",
-    "source": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention",
-    "exists": true
-  },
-  {
-    "name": "parent",
-    "source": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2",
-    "exists": true
-  },
-  {
-    "name": "dataset",
-    "source": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_openpi/data/libero_goal",
-    "exists": true
-  },
-  {
-    "name": "base_model",
-    "source": "/common/users/cs2202/models/pi05_libero_one_shot_pytorch",
-    "exists": true
-  },
-  {
-    "name": "orbax",
-    "source": "/common/users/cs2202/models/pi05_libero_one_shot/5000/params",
-    "exists": true
-  },
-  {
-    "name": "python_environment",
-    "source": "/common/home/cs2202/VLARLKit/model_backends/openpi/.venv",
-    "exists": true
-  },
-  {
-    "name": "libero",
-    "source": "/common/home/cs2202/VLARLKit/third_party/LIBERO",
-    "exists": true
-  },
-  {
-    "name": "openpi",
-    "source": "/common/home/cs2202/VLARLKit/model_backends/openpi",
-    "exists": true
-  },
-  {
-    "name": "tokenizer",
-    "source": "/common/users/cs2202/vlarlkit/cache/openpi/big_vision/paligemma_tokenizer.model",
-    "exists": true
-  }
-]
+{
+  "source_paths": [
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_openpi/data/libero_goal",
+    "/common/users/cs2202/models/pi05_libero_one_shot_pytorch",
+    "/common/users/cs2202/models/pi05_libero_one_shot/5000",
+    "/common/home/cs2202/VLARLKit/model_backends/openpi",
+    "/common/home/cs2202/VLARLKit/model_backends/openpi/.venv",
+    "/common/home/cs2202/VLARLKit/third_party/LIBERO",
+    "/common/home/cs2202/miniconda3/envs/libero",
+    "/common/users/cs2202/vlarlkit/config/libero",
+    "/common/users/cs2202/vlarlkit/cache/openpi/big_vision/paligemma_tokenizer.model",
+    "/common/home/cs2202/VLARLKit/experiments/author_sft_goal20",
+    "/common/home/cs2202/VLARLKit/experiments/github_official_ppo_benchmark/egl_devices.py",
+    "/common/home/cs2202/VLARLKit/vlarlkit",
+    "/common/home/cs2202/VLARLKit/env_clients",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/configs",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/smoke.sbatch",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/environment.sh",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/train_stage1.sbatch",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/simulator_bridge.py",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/simulator.py",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/reports",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/dataset.py",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/native.py",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/validate_stage1.sbatch",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/scripts",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/tests",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/storage.py",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/resume_smoke.sbatch",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/run.py",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/regularization.py",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/dygro",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/compat_smoke.sbatch",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/README.zh-TW.md",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/evaluate_dygro.sbatch",
+    "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/train_stage2.sbatch",
+    "/common/home/cs2202/VLARLKit/setup.py",
+    "/common/home/cs2202/VLARLKit/LICENSE",
+    "/common/home/cs2202/VLARLKit/pyproject.toml"
+  ],
+  "release_url": "https://github.com/Kelvin1117/Robot-sim-experiment/releases/tag/retention-20261110",
+  "manifest": "assets/asset_manifest.json",
+  "all_assets_uploaded": true
+}
