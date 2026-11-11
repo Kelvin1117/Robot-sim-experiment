@@ -1,0 +1,12 @@
+test_checkpoint_selection_rejects_regression (test_retention.RecoveryTests.test_checkpoint_selection_rejects_regression) ... ok
+test_initial_identity_and_rng (test_retention.RecoveryTests.test_initial_identity_and_rng) ... ok
+test_real_update_freezes_parent_and_changes_correction (test_retention.RecoveryTests.test_real_update_freezes_parent_and_changes_correction) ... ok
+test_replay_task_balance_and_resume (test_retention.RecoveryTests.test_replay_task_balance_and_resume) ... ok
+test_sampler_resume (test_retention.RecoveryTests.test_sampler_resume) ... ok
+test_trained_correction_cannot_change_other_tasks (test_retention.RecoveryTests.test_trained_correction_cannot_change_other_tasks) ... ok
+test_unknown_task_rejected (test_retention.RecoveryTests.test_unknown_task_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 3.985s
+
+OK

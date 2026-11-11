@@ -1,0 +1,18 @@
+{
+  "job_id": "1096454",
+  "run": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/smoke-20261108T173422Z",
+  "status": "COMPLETED/0:0",
+  "formal_batch_size_tested": 8,
+  "stage1_peak_gpu_bytes": 21828746752,
+  "actor_tensors_changed": 53,
+  "critic_tensors_changed": 92,
+  "critic_members_changed": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "resume_stage1": true,
+  "resume_stage2": true,
+  "not_a_success_rate_benchmark": true
+}

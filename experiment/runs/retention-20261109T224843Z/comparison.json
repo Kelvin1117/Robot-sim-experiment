@@ -1,0 +1,59 @@
+{
+  "parent_rates": [
+    0.8166666666666667,
+    1.0,
+    0.9666666666666667,
+    0.8,
+    0.9833333333333333,
+    0.9666666666666667,
+    0.8666666666666667,
+    1.0,
+    0.9,
+    0.6
+  ],
+  "recovered_rates": [
+    0.9166666666666666,
+    0.9833333333333333,
+    0.9333333333333333,
+    0.8333333333333334,
+    1.0,
+    1.0,
+    0.8833333333333333,
+    1.0,
+    0.9166666666666666,
+    0.85
+  ],
+  "per_task_delta": [
+    0.09999999999999998,
+    -0.01666666666666672,
+    -0.033333333333333326,
+    0.033333333333333326,
+    0.01666666666666672,
+    0.033333333333333326,
+    0.016666666666666607,
+    0.0,
+    0.016666666666666607,
+    0.25
+  ],
+  "parent_overall": 0.89,
+  "recovered_overall": 0.9316666666666666,
+  "episodes_per_task_per_model": 60,
+  "total_evaluation_episodes": 1200,
+  "protected_tasks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "protected_episode_outcomes_identical": false,
+  "targets_all_non_regressing": true,
+  "targets_all_improved": true,
+  "target_mean_delta": 0.12222222222222219,
+  "selected_training_episode": 200,
+  "source_run": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z",
+  "limitation": "Task-gated recovery relative to the current DyGRO parent; does not prove restoration to original SFT or exact DyGRO reproduction.",
+  "protocol": "Paired independent episode RNG; seeds 0/1/2 x initial states 0-19; 400 steps; final states never used for training/selection"
+}

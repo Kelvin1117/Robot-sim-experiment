@@ -1,0 +1,17 @@
+{
+  "source_sha256": "20aa25cd4b3507d85e4f72924436b4cd8ce2b2f2afeea843431f3b8a17839417",
+  "source_task_counts": [
+    648,
+    474,
+    497,
+    928,
+    468,
+    711,
+    497,
+    419,
+    439,
+    803
+  ],
+  "retained_transitions": 5884,
+  "source": "existing Stage I latents/base draws; training demos only; no evaluation trajectories"
+}

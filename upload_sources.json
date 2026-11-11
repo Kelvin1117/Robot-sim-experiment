@@ -1,0 +1,47 @@
+[
+  {
+    "name": "retention",
+    "source": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention",
+    "exists": true
+  },
+  {
+    "name": "parent",
+    "source": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2",
+    "exists": true
+  },
+  {
+    "name": "dataset",
+    "source": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_openpi/data/libero_goal",
+    "exists": true
+  },
+  {
+    "name": "base_model",
+    "source": "/common/users/cs2202/models/pi05_libero_one_shot_pytorch",
+    "exists": true
+  },
+  {
+    "name": "orbax",
+    "source": "/common/users/cs2202/models/pi05_libero_one_shot/5000/params",
+    "exists": true
+  },
+  {
+    "name": "python_environment",
+    "source": "/common/home/cs2202/VLARLKit/model_backends/openpi/.venv",
+    "exists": true
+  },
+  {
+    "name": "libero",
+    "source": "/common/home/cs2202/VLARLKit/third_party/LIBERO",
+    "exists": true
+  },
+  {
+    "name": "openpi",
+    "source": "/common/home/cs2202/VLARLKit/model_backends/openpi",
+    "exists": true
+  },
+  {
+    "name": "tokenizer",
+    "source": "/common/users/cs2202/vlarlkit/cache/openpi/big_vision/paligemma_tokenizer.model",
+    "exists": true
+  }
+]

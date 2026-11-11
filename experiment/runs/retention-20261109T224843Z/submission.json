@@ -1,0 +1,78 @@
+{
+  "jobs": [
+    {
+      "stage": "smoke",
+      "job_id": 1117899,
+      "submission_command": [
+        "sbatch",
+        "--parsable",
+        "--hold",
+        "--kill-on-invalid-dep=yes",
+        "--job-name",
+        "dygro-retain-smoke",
+        "--time",
+        "01:00:00",
+        "--output",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/logs/smoke-%j.out",
+        "--error",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/logs/smoke-%j.err",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/job.sbatch",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z",
+        "smoke"
+      ]
+    },
+    {
+      "stage": "train",
+      "job_id": 1117900,
+      "submission_command": [
+        "sbatch",
+        "--parsable",
+        "--hold",
+        "--kill-on-invalid-dep=yes",
+        "--job-name",
+        "dygro-retain-train",
+        "--time",
+        "1-00:00:00",
+        "--output",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/logs/train-%j.out",
+        "--error",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/logs/train-%j.err",
+        "--dependency",
+        "afterok:1117899",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/job.sbatch",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z",
+        "train"
+      ]
+    },
+    {
+      "stage": "evaluate",
+      "job_id": 1117901,
+      "submission_command": [
+        "sbatch",
+        "--parsable",
+        "--hold",
+        "--kill-on-invalid-dep=yes",
+        "--job-name",
+        "dygro-retain-evaluate",
+        "--time",
+        "06:00:00",
+        "--output",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/logs/evaluate-%j.out",
+        "--error",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/logs/evaluate-%j.err",
+        "--dependency",
+        "afterok:1117900",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z/job.sbatch",
+        "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z",
+        "evaluate"
+      ]
+    }
+  ],
+  "run": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_retention/runs/retention-20261109T224843Z",
+  "node": "rlab2",
+  "gpu": "1 A100 per job",
+  "memory": "96G",
+  "quota_headroom_bytes": 7573354496,
+  "status": "released",
+  "protocol": "Each model: 10 tasks x 60 episodes; paired parent/recovered = 1200 total"
+}

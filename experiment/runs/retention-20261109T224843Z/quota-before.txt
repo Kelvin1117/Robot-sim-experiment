@@ -1,0 +1,5 @@
+Disk quotas for user cs2202 (uid 1905244810): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+       /dev/md1   43136  3145728 2097152             283       0       0        
+communis.lcsr.rutgers.edu:/common/home 51683028  52428800 52428800          350208       0       0        
+eternal.lcsr.rutgers.edu:/common/users 97461746  104857600 104857600           40293       0       0

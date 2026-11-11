@@ -1,0 +1,616 @@
+[
+  {
+    "parameter": "provenance",
+    "value": "DyGRO-VLA Section4 AppendixA-D method port v2; OpenPI backbone compatibility and unpublished numerical choices are experimental, not exact reproduction",
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "model.weights",
+    "value": "/common/users/cs2202/models/pi05_libero_one_shot_pytorch/model.safetensors",
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.weights_sha256",
+    "value": "c24aa16f16bc270b551d08673cd3882a2f0933749f35d52b9952eca46752f416",
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.orbax",
+    "value": "/common/users/cs2202/models/pi05_libero_one_shot/5000/params",
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.normalization",
+    "value": "/common/users/cs2202/models/pi05_libero_one_shot_pytorch/assets/libero_one_shot/norm_stats.json",
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.tokenizer",
+    "value": "/common/users/cs2202/vlarlkit/cache/openpi/big_vision/paligemma_tokenizer.model",
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.horizon",
+    "value": 10,
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.denoise_steps",
+    "value": 10,
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.discrete_state_input",
+    "value": false,
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.max_token_len",
+    "value": 200,
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.normalization_sha256",
+    "value": "9c36abd8a73f105c6afe76db2dcfd9de4b16928242df20bebe9688854172b6b8",
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "model.tokenizer_sha256",
+    "value": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+    "source": "existing One-Shot artifact or necessary OpenPI compatibility setting; not DyGRO numeric default"
+  },
+  {
+    "parameter": "fusion.width",
+    "value": 256,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "fusion.queries",
+    "value": 10,
+    "source": "minimal backbone port assumption: one query per horizon slot; count not published"
+  },
+  {
+    "parameter": "fusion.layers",
+    "value": 2,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "fusion.heads",
+    "value": 4,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "fusion.latent_std",
+    "value": 0.05,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "data.directory",
+    "value": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_openpi/data/libero_goal",
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "data.validation_episodes",
+    "value": 5,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "data.temporal_action_offset",
+    "value": 1,
+    "source": "official LIBERO create_dataset.py post-action observation alignment"
+  },
+  {
+    "parameter": "stage1.steps",
+    "value": 57000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.batch_size",
+    "value": 8,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.lr",
+    "value": 1e-05,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.dv_lr",
+    "value": 0.0001,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.dv_width",
+    "value": 128,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.weight_decay",
+    "value": 0.01,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.max_grad_norm",
+    "value": 1.0,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.ib_weight",
+    "value": 0.001,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.critic_updates",
+    "value": 5,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.train_base",
+    "value": "action_expert",
+    "source": "EXPERIMENTAL freeze recipe, not a required backbone compatibility change and not an author default"
+  },
+  {
+    "parameter": "stage1.checkpoint_every",
+    "value": 1000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.validation_every",
+    "value": 1000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.validation_batches",
+    "value": 32,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.validation_seed",
+    "value": 7001,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.min_completed_steps",
+    "value": 29000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.optimizer",
+    "value": "AdamW",
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.dv_optimizer",
+    "value": "Adam",
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.betas",
+    "value": [
+      0.9,
+      0.999
+    ],
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.eps",
+    "value": 1e-08,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.min_lr",
+    "value": 1e-06,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.initial_steps",
+    "value": 29000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.minimum_epoch_equivalents",
+    "value": 4,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.requested_initial_epochs",
+    "value": 4,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.requested_maximum_epochs",
+    "value": 8,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1.training_split_observations",
+    "value": 56751,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.episodes",
+    "value": 2000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.max_steps",
+    "value": 400,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.batch_size",
+    "value": 256,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.actor_lr",
+    "value": 0.0003,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.critic_lr",
+    "value": 0.0003,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.weight_decay",
+    "value": 0.0,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.gamma",
+    "value": 0.99,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.entropy_temperature",
+    "value": 1.0,
+    "source": "Eq6 unit log-policy coefficient; 1.0 as printed equation"
+  },
+  {
+    "parameter": "stage2.calibration_weight",
+    "value": 0.1,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.contrastive_weight",
+    "value": 0.1,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.load_balance_weight",
+    "value": 0.01,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.bc_weight",
+    "value": 1.0,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.advantage_filter",
+    "value": "positive_demo_advantage",
+    "source": "EXPERIMENTAL hard positive-Q demo BC filter; not exact cited AWAC"
+  },
+  {
+    "parameter": "stage2.soft_backup",
+    "value": false,
+    "source": "Eq12 contains no entropy backup; False follows printed equation"
+  },
+  {
+    "parameter": "stage2.max_gradient_norm",
+    "value": 1.0,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.target_rate",
+    "value": 0.005,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.target_frequency",
+    "value": 1,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.actor_frequency",
+    "value": 1,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.critics",
+    "value": 4,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.hidden",
+    "value": 256,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.critic_layers",
+    "value": 2,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.embedding_dim",
+    "value": 64,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.experts",
+    "value": 8,
+    "source": "Table4 evaluates8 experts; this run selects8"
+  },
+  {
+    "parameter": "stage2.top_m",
+    "value": 2,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.temperature",
+    "value": 0.1,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.residual_scale",
+    "value": 0.1,
+    "source": "A.2 specifies bounded alpha but not alpha=0.1; experimental assumption"
+  },
+  {
+    "parameter": "stage2.log_std_bounds",
+    "value": [
+      -5,
+      1
+    ],
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.replay_capacity",
+    "value": 100000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.offline_capacity",
+    "value": 20000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.offline_ratio",
+    "value": 0.5,
+    "source": "Section4.2 uniform offline/online mixing interpreted as equal transition counts"
+  },
+  {
+    "parameter": "stage2.offline_episodes_per_task",
+    "value": 45,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.critic_warmup",
+    "value": 1000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.actor_warmup",
+    "value": 1000,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.updates_per_episode",
+    "value": 40,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.checkpoint_every",
+    "value": 25,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.evaluation_every",
+    "value": 200,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.validation_initial_states",
+    "value": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.train_initial_states",
+    "value": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.bootstrap_time_limits",
+    "value": false,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.difficulty_target",
+    "value": 0.9,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.difficulty_temperature",
+    "value": 0.2,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.offline_max_chunks_per_episode",
+    "value": 0,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.advantage_threshold",
+    "value": 0.0,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.optimizer",
+    "value": "Adam",
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.betas",
+    "value": [
+      0.9,
+      0.999
+    ],
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.eps",
+    "value": 1e-08,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage2.advantage_filter_scope",
+    "value": "offline BC only; Eq6 SAC on all mixed replay states",
+    "source": "Eq6 restored on all mixed states; only demo BC is filtered"
+  },
+  {
+    "parameter": "evaluation.seeds",
+    "value": [
+      0,
+      1,
+      2
+    ],
+    "source": "user-requested600 episode protocol; seeds/step limit are experimental protocol choices"
+  },
+  {
+    "parameter": "evaluation.episodes_per_task",
+    "value": 20,
+    "source": "user-requested600 episode protocol; seeds/step limit are experimental protocol choices"
+  },
+  {
+    "parameter": "evaluation.initial_states",
+    "value": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "source": "user-requested600 episode protocol; seeds/step limit are experimental protocol choices"
+  },
+  {
+    "parameter": "evaluation.max_steps",
+    "value": 400,
+    "source": "user-requested600 episode protocol; seeds/step limit are experimental protocol choices"
+  },
+  {
+    "parameter": "seed",
+    "value": 42,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "amp",
+    "value": "bfloat16",
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "environment.camera_resolution",
+    "value": 128,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "environment.warmup_steps",
+    "value": 10,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "environment.control_hz",
+    "value": 20,
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  },
+  {
+    "parameter": "stage1_gate.seeds",
+    "value": [
+      8123
+    ],
+    "source": "engineering behavioral acceptance criterion, not a paper loss or benchmark guarantee"
+  },
+  {
+    "parameter": "stage1_gate.initial_states",
+    "value": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "source": "engineering behavioral acceptance criterion, not a paper loss or benchmark guarantee"
+  },
+  {
+    "parameter": "stage1_gate.max_steps",
+    "value": 400,
+    "source": "engineering behavioral acceptance criterion, not a paper loss or benchmark guarantee"
+  },
+  {
+    "parameter": "stage1_gate.minimum_overall_success_rate",
+    "value": 0.75,
+    "source": "engineering behavioral acceptance criterion, not a paper loss or benchmark guarantee"
+  },
+  {
+    "parameter": "stage1_gate.minimum_per_task_success_rate",
+    "value": 0.2,
+    "source": "engineering behavioral acceptance criterion, not a paper loss or benchmark guarantee"
+  },
+  {
+    "parameter": "stage1_gate.allow_budget_extension",
+    "value": true,
+    "source": "engineering behavioral acceptance criterion, not a paper loss or benchmark guarantee"
+  },
+  {
+    "parameter": "scope",
+    "value": "formal",
+    "source": "EXPERIMENTAL / engineering assumption; numeric value is not published by DyGRO"
+  }
+]

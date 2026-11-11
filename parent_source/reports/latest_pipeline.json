@@ -1,0 +1,22 @@
+{
+  "run": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/paper-v2-20261108T174348Z",
+  "jobs": {
+    "stage1": "1096483",
+    "validation": "1096486",
+    "stage2": "1096490",
+    "evaluation": "1096493"
+  },
+  "state": "submitted",
+  "states_at_submission": {
+    "stage1": "PENDING",
+    "validation": "PENDING",
+    "stage2": "PENDING",
+    "evaluation": "PENDING"
+  },
+  "smoke": "/common/users/cs2202/dygro_pi05_phase012_20261106/oneshot_paper_v2/runs/smoke-20261108T173422Z",
+  "dependencies": {
+    "1096486": "afterok:1096483",
+    "1096490": "afterok:1096486",
+    "1096493": "afterok:1096490"
+  }
+}
