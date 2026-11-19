@@ -1,0 +1,8 @@
+{
+  "source_run": "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/alltask-20261114T194143Z",
+  "replaces_job": 1276044,
+  "checkpoint": "best.pt",
+  "episode": 1000,
+  "validation_mean": 0.9833333333333333,
+  "change": "GPU EGL rendering on allocated GPU; retain trained weights, episode reset, deterministic inference, seeds and evaluation protocol"
+}

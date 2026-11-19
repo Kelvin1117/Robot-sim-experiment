@@ -1,0 +1,28 @@
+{
+  "episodes": 1200,
+  "best_episode": 1000,
+  "selected_validation_rates": [
+    0.9666666666666667,
+    1.0,
+    1.0,
+    0.9333333333333333,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.9666666666666667,
+    0.9666666666666667
+  ],
+  "parent_unchanged": true,
+  "stage1_frozen": true,
+  "best_sha256": "98f5c2993bafbd0c502b3d48d63b4ca525964b810d3f0d6353a0f9626b809069",
+  "config_sha256": "cf4b42c69674879d52cc61f37d5b51d6b11d9e4aa0de026f0dd3b07d6e27850e",
+  "validation_improved": true,
+  "source_hashes": {
+    "config.json": "8427023f3a608e8ca69b4c2ad3064db51c6efbe9f4ad942d841241869083346e",
+    "stage1/validated.json": "eb5005abacb6e0d07fb5192af9410a60d9a88d8a596d076be1ed80267ee53e88",
+    "stage1/validated.pt": "326ecc6fb2ec01a2c98795981f600bc24f5cdb85d17b45ca4cd188d81e842cad",
+    "stage2/best.pt": "9874d443cbdcf72fbe3f8cc8574131bd9b9f1bd2708467b6d1d8cc7b750392fa",
+    "stage2/latest.pt": "20aa25cd4b3507d85e4f72924436b4cd8ce2b2f2afeea843431f3b8a17839417"
+  }
+}

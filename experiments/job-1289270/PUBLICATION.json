@@ -1,0 +1,7 @@
+{
+  "source_status": "sanitized public derivative; historical manifests are provenance only",
+  "weights_changed": false,
+  "best_sha256": "98f5c2993bafbd0c502b3d48d63b4ca525964b810d3f0d6353a0f9626b809069",
+  "checkpoint_loading": "weights_only=True by default; explicit trusted legacy opt-in only",
+  "legacy_full_environment_release": "temporarily unpublished pending full security review"
+}

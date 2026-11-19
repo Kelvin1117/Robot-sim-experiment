@@ -1,0 +1,11 @@
+task_id,task_name,successes,episodes,success_rate
+0,open_the_middle_drawer_of_the_cabinet,60,60,1.00000000
+1,put_the_bowl_on_the_stove,60,60,1.00000000
+2,put_the_wine_bottle_on_top_of_the_cabinet,59,60,0.98333333
+3,open_the_top_drawer_and_put_the_bowl_inside,58,60,0.96666667
+4,put_the_bowl_on_top_of_the_cabinet,60,60,1.00000000
+5,push_the_plate_to_the_front_of_the_stove,60,60,1.00000000
+6,put_the_cream_cheese_in_the_bowl,60,60,1.00000000
+7,turn_on_the_stove,60,60,1.00000000
+8,put_the_bowl_on_the_plate,59,60,0.98333333
+9,put_the_wine_bottle_on_the_rack,55,60,0.91666667

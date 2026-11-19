@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "rollout": {
+    "task": 0,
+    "success": false,
+    "steps": 20,
+    "episodes": 1,
+    "task_probabilities": [
+      0.15,
+      0.05714285714285715,
+      0.05714285714285715,
+      0.05714285714285715,
+      0.05714285714285715,
+      0.05714285714285715,
+      0.15,
+      0.05714285714285715,
+      0.05714285714285715,
+      0.3
+    ]
+  },
+  "metrics": {
+    "critic": 0.046114809811115265,
+    "td": 0.004772244021296501,
+    "calibration": 0.41342562437057495,
+    "actor": 0.7298822402954102,
+    "rl": 0.033677857369184494,
+    "bc": 0.06962043046951294,
+    "retention": 2.5694435468182064e-09,
+    "trust": 3.103095114198595e-09,
+    "actor_gradient_norm": 0.0283682718873024
+  },
+  "parent_unchanged": true,
+  "correction_updated": true,
+  "short_evaluation": {
+    "counts": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "episodes": [
+      {
+        "seed": 9001,
+        "task": 0,
+        "episode": 0,
+        "initial_state": 24,
+        "episode_seed": 900100024,
+        "success": false,
+        "steps": 20
+      },
+      {
+        "seed": 9001,
+        "task": 1,
+        "episode": 0,
+        "initial_state": 24,
+        "episode_seed": 900100124,
+        "success": false,
+        "steps": 20
+      },
+      {
+        "seed": 9001,
+        "task": 6,
+        "episode": 0,
+        "initial_state": 24,
+        "episode_seed": 900100624,
+        "success": false,
+        "steps": 20
+      },
+      {
+        "seed": 9001,
+        "task": 9,
+        "episode": 0,
+        "initial_state": 24,
+        "episode_seed": 900100924,
+        "success": false,
+        "steps": 20
+      }
+    ],
+    "per_task_success_rate": [
+      0.0,
+      0.0,
+      null,
+      null,
+      null,
+      null,
+      0.0,
+      null,
+      null,
+      0.0
+    ],
+    "overall_success_rate": 0.0,
+    "protocol": {
+      "seeds": [
+        9001
+      ],
+      "initial_states": [
+        24
+      ],
+      "max_steps": 20,
+      "independent_episode_rng": true,
+      "success_signal": "env.check_success()",
+      "camera_resolution": 128
+    }
+  },
+  "config_sha256": "d698291e2ef1910c8aecdac9bc89d25d324094e5faf53e33f483bb1f4d42e072",
+  "note": "20-step smoke checks execution, not policy success"
+}

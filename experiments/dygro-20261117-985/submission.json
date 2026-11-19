@@ -1,0 +1,72 @@
+{
+  "run": "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z",
+  "jobs": [
+    {
+      "stage": "train",
+      "job_id": 1307795,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--hold",
+        "--kill-on-invalid-dep=yes",
+        "--job-name",
+        "dygro-msaa4-train1800",
+        "--time",
+        "2-00:00:00",
+        "--output",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z/logs/train-%j.out",
+        "--error",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z/logs/train-%j.err",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z/job.sbatch",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z",
+        "train"
+      ]
+    },
+    {
+      "stage": "evaluate",
+      "job_id": 1307796,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--hold",
+        "--kill-on-invalid-dep=yes",
+        "--job-name",
+        "dygro-msaa4-best-eval600",
+        "--time",
+        "16:00:00",
+        "--output",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z/logs/evaluate-%j.out",
+        "--error",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z/logs/evaluate-%j.err",
+        "--dependency",
+        "afterok:1307795",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z/job.sbatch",
+        "/common/users/researcher/dygro_pi05_phase012_20261106/oneshot_alltask_v3/runs/msaa4-train1800-20261117T060539Z",
+        "evaluate"
+      ]
+    }
+  ],
+  "msaa": 4,
+  "training_episodes": 1800,
+  "evaluation_checkpoint": "best.pt",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "trials_per_task": 60,
+  "total_trials": 600,
+  "status": "released",
+  "bc_warmup": 2000,
+  "supersedes_jobs": [
+    1307585,
+    1307586
+  ]
+}
